@@ -56,6 +56,7 @@ nav{
     align-items: center;
     background-color: #cbaf87;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .navbar{
@@ -63,6 +64,7 @@ nav{
     list-style: none;
     display: flex; 
     margin: 20px; 
+    
    
 }
 
