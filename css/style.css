@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+section{
+    display: flex; 
+}
+
+.box1, .box2, .box3, .box4{
+    padding: 50px 50px;  
+}
+
+.box1{
+    max-width: 100%;
+    height: 60vh; 
+    background-image: url(../Mixed\ pics/_69A8362.jpg);
+    /*background-attachment: fixed; */
+    background-size: cover;
+    display: flex; 
+    
+}
+
+.box1 span{
+    color: #d3c09a;
+    font-size: 64px;
+    font-family: 'Raleway';
+    text-shadow: 0px 40px 0px 0px; 
+    text-decoration: black;
+    
+}
+
+.box2{
+    display: flex;
+    height: 30vh; 
+    width:60%; 
+    background: white;
+    text-align: center;
+    opacity: 75%;
+    
+    
+}
+
+.box3{
+    max-width: 100%;
+    height: 60vh; 
+    background-image: url(../Mixed\ pics/_69A9032.jpg);
+   /* background-attachment: fixed;*/
+    background-size: cover;
+    display: flex;
+}
+
+.box2 span{
+    margin: 20px 20px; 
+    font-size: 72px; 
+    font-family: 'Raleway';
+    flex-direction: column;
+    display: flex; 
+}
+
+.text{
+    margin: 20px 20px; 
+    font-size: 32px;
+    font-family: 'Raleway';
+    flex-direction: column;
+}
+
+
+.box5{
+    max-width: 100%;
+    height: 60vh; 
+    background-image: url(../Mixed\ pics/_69A8739.jpg);
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+
+.box6 {
+    width: 100%; 
+    height: 20vh;  
+    text-align: center;
+    background: white;
+    justify-content: center;
+    margin-top: 120px; 
+    
+}
+
+.info-text3{
+    width: 50%;
+}
+
+.box6 span{
+    margin: 20px 20px; 
+    font-size: 48px; 
+    font-family: 'Raleway';
+    flex-direction: column;
+    display: flex; 
+}
+
+.text3 {
+    font-size: 30px; 
+    font-family: 'Raleway';
+}
+
+
+.sign-up{
+    margin-top: 40px; ; 
+    flex: 1;
+    justify-content: center;
+   
+
+}
+
+input{
+    width: 60%;
+    height: 50px; 
+    border: 1px solid black; 
+    background: #d3c09a;
+    color: black; 
+    font-size: 24px; 
+
+}
+
+.sign-up button{
+    border: 2px solid black; 
+	background: #d3c09a;
+	color: black; 
+	width: 150px; 
+	height: 50px; 
+	cursor: pointer;
+    font-size: 24px; 
+    border-radius: 4%;
+}
+
+.box7{
+    width: 100%;
+    
+}
+
+.container{
+    background: #d3c09a;    
+    width: 100%; 
+    justify-content: center;
+    text-align: center;
+      
+}
+
+.logo_img img{
+    
+    width: 200px; 
+    height: 200px;
+
+}
+.container h1{
+    
+    color: #1f1d18d0; 
+    font-size: 72px;
+    font-family: 'Raleway', bold;
+    margin-top: 40px; 
+    margin-bottom: 150px; 
+    text-align: center; 
+}
+
+.team span, .team-member h3{
+    color: #3a352bd7; 
+    font-size: 48px; 
+    font-family: 'Raleway' bold;
+    margin-top: 50px; 
+    margin-bottom: 20px;
+
+     
+}
+.team p.role{
+    color: rgba(26, 26, 26, 0.925);
+    font-size:38px; 
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    margin: 12px 0px; 
+    
+}
+
+.team p{
+    color: rgb(27, 27, 27);
+    font-size:28px; 
+    font-family: 'Raleway';
+}
+
+.team{
+    width: auto;
+    display: flex; 
+    text-align: center; 
+    justify-content: center;
+    font-family: 'Raleway';
+    flex-wrap: wrap;
+}
+
+.team .team-member{
+    background: rgba(255, 255, 255, 0.664);
+    margin: 10px; 
+    margin-bottom: 50px;
+    width: 30%; 
+    padding: 40px; 
+    line-height: 50px; 
+    position: relative;    
+}
+
+.team .team-member .team_img{
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: -100px; 
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+.team .team-member .team_img img{
+    width: 200px; 
+    height: 200px;
+    
+}
+
+.presentation{
+	display: flex;
+	width: 90%;
+	margin: auto; 
+	min-height: 55vh; 
+    align-items: center; 
+    font-family: 'Raleway';
+    
+
+}
+
+.introduktion{
+	 
+	flex: 1; 
+}
+
+.intro-text span{
+	font-size: 72px; 
+    font-family: 'Raleway';
+    margin-bottom: 20px;
+}
+
+.intro-text p{
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size: 32px; 
+    font-family: 'Raleway';
+    
+}
+
+
+.cover{
+	flex: 1; 
+}
+.cover img{
+	height: 50vh; 
+
+}
