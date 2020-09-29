@@ -293,3 +293,165 @@ color: #CBAF87;
 a:hover{
     color:black;
 }
+
+footer{
+    width: 100%;
+    background-color: #d3c09a;
+    height: 40vh;
+}
+
+.footer-container{
+    display: flex; 
+}
+
+.footer-box1, .footer-box2, .footer-box3{
+   
+    margin: 40px auto;
+    width: 28%; 
+    height: 30vh;
+}
+
+.footer-box1{
+    background-color: #d3c09a;
+}
+
+.footer-box2{
+    background-color: #d3c09a;
+}
+
+.footer-box3{
+    background-color: #d3c09a;
+}
+
+.footer-box2 .footer-links{
+    font-size: 54px; 
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer-box2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-box2 ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer-box3 form{
+    width: 100%;
+margin: 180px 100px; 
+}
+
+.footer-box3{
+    margin-top: 40px;
+    flex: 1;
+    justify-content: center;
+   
+
+}
+
+.footer-box3 h1{
+    Font-size: 32px; 
+    font-family: 'Raleway';
+    color: black; 
+}
+
+input{
+    width: 60%;
+    height: 50px; 
+    border: 1px solid black; 
+    background: white;
+    color: black; 
+    font-size: 24px; 
+
+}
+
+.footer-box3 button{
+    border: 2px solid black; 
+	background: white;
+	color: black; 
+	width: 150px; 
+	height: 50px; 
+	cursor: pointer;
+    font-size: 24px; 
+    border-radius: 4%;
+}
+
+.footer-box1 h1{
+
+    margin: 80px 60px; 
+    font-family: 'Raleway';
+    font-size: 72px; 
+}
+
+.footer-box1 ul{
+    margin: 20px 20px; 
+    display: flex; 
+    list-style: none; 
+    justify-content: space-around;
+}
+
+.footer-box1 ul li{
+    text-decoration: none;
+}
+
+
+
+
+
+.footer-box1 .fa {
+    padding: 30px;
+    font-size: 44px;
+    margin-right: 20px; 
+    width: 40px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    display: flex; 
+    
+    
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-facebook:hover {
+    background: white;
+    color: #3B5998;
+  }
+
+  .fa-twitter:hover {
+    background: white;
+    color: #55ACEE;
+  }
+
+  .fa-linkedin:hover {
+    background: white;
+    color: #007bb5;
+  }
+
+  .fa-instagram:hover {
+    background: white;
+    color: #125688;
+  }
