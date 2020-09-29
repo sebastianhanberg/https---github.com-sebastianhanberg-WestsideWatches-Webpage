@@ -1,4 +1,82 @@
 
+header {
+    display: flex; 
+    margin: 20px; 
+    height: 100px; 
+    align-items: center;
+    
+}
+
+header h4{
+    display: flex; 
+    margin-left: 20px; 
+    align-self: center;
+    color: #cbaf87;
+    font-family: 'Playfair Display';
+    font-size: 28px; 
+}
+
+.logo-box, .cart{
+
+    display: flex;
+
+}
+.logo-box {
+     flex:1;
+    }
+
+.cart {
+    
+    flex: 1; 
+    justify-content: flex-end;
+}
+
+.logo-box img {
+    width: 70px;
+    height: auto; 
+       
+}
+
+
+.cart img {
+    width: 70px;
+    height: auto; 
+    
+}
+
+
+nav{
+    display: flex;     
+    align-items: center;
+    background-color: #cbaf87;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+.navbar{
+    justify-content: center;
+    list-style: none;
+    display: flex; 
+    margin: 20px; 
+   
+}
+
+.navbar a{
+    padding: 0px 80px 0px 80px; 
+}
+
+.navbar a:hover{
+    color: rgba(255, 255, 255, 0.877);
+}
+
+.nav-link{
+    display: flex; 
+	color: rgba(70, 66, 66, 0.897);
+	font-size: 20px; 
+	text-decoration: none; 
+}
+
+
 body
 {
 background-size: 90%;
