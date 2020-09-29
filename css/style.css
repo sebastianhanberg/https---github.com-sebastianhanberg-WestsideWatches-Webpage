@@ -16,7 +16,7 @@ section{
     max-width: 100%;
     height: 60vh; 
     background-image: url(../Mixed\ pics/_69A8362.jpg);
-    /*background-attachment: fixed; */
+    background-attachment: fixed; 
     background-size: cover;
     display: flex; 
     
@@ -46,7 +46,7 @@ section{
     max-width: 100%;
     height: 60vh; 
     background-image: url(../Mixed\ pics/_69A9032.jpg);
-   /* background-attachment: fixed;*/
+    background-attachment: fixed;
     background-size: cover;
     display: flex;
 }
@@ -71,7 +71,7 @@ section{
     max-width: 100%;
     height: 60vh; 
     background-image: url(../Mixed\ pics/_69A8739.jpg);
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -257,160 +257,6 @@ input{
 .cover img{
 	height: 50vh; 
 
-}
-
-
-
-body
-{
-background-size: 90%;
-background-color: whitesmoke;
-padding: 30px;
-}
-
-@font-face
-{
-    font-family: 'Raleway', sans-serif;
-    src: url(https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap);
-    font-family: 'Great Vibes';
-    src: url(https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap);
-}
-
-p
-{
-    font-family: raleway;
-    font-size: 17px;
-}
-
-h3
-{
-    font-family: 'Great Vibes', cursive;
-    font-size: 150%;
-
-}
-
-/*-BIGGER SCREENS-*/
-#container
-{
-    width: 90%;
-    height: 100vh; 
-    margin: 0 auto;
-    display: grid;
-    gap: 2%;
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-areas:
-    "story story story storypicture storypicture storypicture"
-    "story1 story1 story2 story2 story3 story3";
-
-}
-
-
-
-.story
-{
-    grid-area: story;
-    padding: 20px;
-    align-self: center;
-    justify-self: center;
-}
-
-.storypicture
-{
-    grid-area: storypicture;
-    /*justify-self: center;
-    align-self: center;
-    margin: 30px;*/
-    
-}
-
-.img
-{
-    background-size: cover;
-    object-fit: cover;
-    
-}
-
-.story1
-{
-grid-area: story1;
-align-self: start;
-justify-self: center;
-}
-
-.story2
-{
-    grid-area: story2;
-    align-self: start;
-    justify-self: center;
-}
-
-.story3
-{
-    grid-area: story3;
-    align-self: start;
-    justify-self: center;
-}
-
-
-
-/*-SMALLER COMPUTER SCREENS-*/
-@media screen and (min-width: 960px) and (max-width: 1200px)
-{
-    #container
-    {
-    width: 90%;
-    height: 100vh; 
-    margin: 0 auto;
-    display: grid;
-    gap: 2%;
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-areas:
-    "story story story storypicture storypicture storypicture"
-    "story1 story1 story2 story2 story3 story3";
-    }
-
-}
-
-
-/*-TABLETS-*/
-@media screen and (min-width: 768px) and (max-width: 960px)
-{
-    #container 
-    {
-        width: 90%;
-        height: 100vh; 
-        margin: 0 auto;
-        display: grid;
-        gap: 2%;
-        grid-template-rows: repeat(4, 1fr);
-        grid-template-areas:
-        "storypicture storypicture storypicture storypicture storypicture storypicture"
-        "story story story story story story" 
-        "story1 story1 story2 story2 story3 story3";
-    }
-}
-
-
-
-/*-PHONES-*/
-@media screen and (max-width: 768px)
-{
-
-  #container 
-  {
-    width: 90%;
-    height: 100vh; 
-    margin: 0 auto;
-    display: grid;
-    gap: 2%;
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-areas:
-    "storypicture storypicture"
-    "story story" 
-    "story1 story1" 
-    "story2 story2"
-    "story3 story3";
-  }
 }
 
 
